@@ -1,0 +1,92 @@
+footer{
+    bottom: 0;
+    position: absolute;
+    background-color: #181818;
+    width: 100%;
+    
+
+}
+.left-block-title{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-family: Teko, sans-serif;
+    font-size: 20px;
+   
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+
+.links{
+    
+    margin-left: 100px;
+    margin-bottom: 40px;
+    font-family: Teko, sans-serif;
+    
+   
+   
+}
+
+
+.footer-link a{
+    color: grey;
+    text-decoration:none;
+    letter-spacing: 1px;
+    
+    
+}
+.footer-link{
+    margin-bottom: 10px;
+}
+
+.right-block-title{
+    margin-left: 100px;
+    margin-bottom: 10px;
+    margin-right: 100px;
+    margin-top: 20px;
+    font-family: Teko, sans-serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: #fff;
+   
+}
+.footer-section{
+    display: flex;
+    justify-content: space-evenly;
+   
+   
+  
+    
+   
+}
+.footer{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.technologyused{
+    margin-left: 100px;
+    margin-bottom: 40px;
+    font-family: Teko, sans-serif;
+    letter-spacing: 1px;
+   
+}
+.technologyName{
+    
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.div-block-3{
+    border-top: 2px solid #444;
+    padding-top: 35px;
+}
+.description{
+  
+    margin-bottom: 20px;
+    font-family: Teko, sans-serif;
+    color: grey;
+    letter-spacing: 1px;
+}
+

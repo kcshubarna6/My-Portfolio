@@ -2,32 +2,26 @@
     background-color: #181818;
     display: flex;
     justify-content: space-evenly;
-   
-    height: 60px;
-    margin-top: 0;
-    margin-bottom: auto;
-    margin-right: 0;
-    padding: 0;
-    position: relative;
-    top: 0;
-    right: 0;
-   
-   
+    height: 80px;
+
+    
 }
+
 .nav-bar a{
     text-decoration: none;
+    letter-spacing: 1px;
     color: #fff;
     font-family: "Teko", sans-serif;
     font-size: 20px;
-    letter-spacing: 1px;
+   
     
 }
 .text-block-1{
-    margin-top: 20px;
+    margin-top: 25px;
     font-family: "Teko", sans-serif;
 }
 .hidden-text-block{
-    margin-top: 20px;
+    margin-top: 25px;
 }
 .hidden-text-block a{
     padding: 25px;
