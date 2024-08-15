@@ -1,0 +1,11 @@
+.mat-card-block{
+   margin: 50px;
+   background-color: grey;
+   height: 300px;
+   
+}
+main{
+  
+    position: relative;
+    margin: auto;
+}
