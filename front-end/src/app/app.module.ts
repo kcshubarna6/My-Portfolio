@@ -11,6 +11,8 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { IntroComponent } from './intro/intro.component';
+import { RouterOutlet } from '@angular/router';
+import { ProjectintroComponent } from './projectintro/projectintro.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,8 @@ import { IntroComponent } from './intro/intro.component';
     HeaderComponent,
     FooterComponent,
     ProjectsComponent,
-    IntroComponent
+    IntroComponent,
+    ProjectintroComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +29,8 @@ import { IntroComponent } from './intro/intro.component';
     BrowserAnimationsModule,
     MaterialModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    RouterOutlet
   ],
   providers: [],
   bootstrap: [AppComponent]
