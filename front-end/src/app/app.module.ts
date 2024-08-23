@@ -12,6 +12,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { IntroComponent } from './intro/intro.component';
 import { RouterOutlet } from '@angular/router';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { RouterOutlet } from '@angular/router';
     HeaderComponent,
     FooterComponent,
     ProjectsComponent,
-    IntroComponent
+    IntroComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

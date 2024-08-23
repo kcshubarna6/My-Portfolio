@@ -1,7 +1,6 @@
-import { Component, AfterViewInit } from '@angular/core';
+import { Component, AfterViewInit,OnInit } from '@angular/core';
 
 import { Router, NavigationEnd } from '@angular/router';
-import { ActivatedRoute } from '@angular/router';
 
 
 
@@ -10,10 +9,10 @@ import { ActivatedRoute } from '@angular/router';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements AfterViewInit{
+export class AppComponent implements AfterViewInit, OnInit{
   title = 'front-end';
 
-  constructor(private router: Router,private route: ActivatedRoute) { }
+  constructor(private router: Router) { }
  
 
   ngAfterViewInit(): void {
@@ -33,6 +32,11 @@ export class AppComponent implements AfterViewInit{
         else if (event.url === '/technology'){
           this.scrollToFooter();
           
+        }
+        else if (event.url === '/about-me'){
+          setTimeout(() => {
+            this.scrollToHeader();
+          }, 100); 
         }
         else {
           this.scrollToProjects();
@@ -69,6 +73,39 @@ export class AppComponent implements AfterViewInit{
     }
 
   }
+  scrollToHeader(): void {
+
+    const aboutElement = document.getElementById('header');
+    console.log(aboutElement)
+    
+
+    if (aboutElement) {
+
+      aboutElement.scrollIntoView({ behavior: 'smooth' });
+
+    }
+
+  }
 
 
+  showIntroAndProjects: boolean = true;
+
+  
+  showRouted: boolean = true;
+
+ 
+  ngOnInit(): void {
+    this.router.events.subscribe(event => {
+      if (event instanceof NavigationEnd) {
+        
+        this.showIntroAndProjects =  event.url === '/' || event.url === "/projects" || event.url === "/contact-about" || event.url ==="/technology";
+        this.showRouted=event.url==='/about-me';
+      }
+      
+    });
+  }
+
+ 
 }
+
+

@@ -11,10 +11,21 @@
   
 </head>
 <body>
- <app-header></app-header>
- <app-intro></app-intro>
- <app-projects></app-projects>
- <app-footer></app-footer>
+  <app-header></app-header>
+
+  <ng-container *ngIf="showIntroAndProjects">
+    <app-intro></app-intro>
+    <app-projects></app-projects>
+  </ng-container>
+  
+  <ng-container *ngIf="showRouted">
+    <router-outlet></router-outlet>
+
+  </ng-container>
+  
+  
+  <app-footer></app-footer>
+  
 
   
 </body>
