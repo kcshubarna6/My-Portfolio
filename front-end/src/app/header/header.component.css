@@ -1,0 +1,30 @@
+.header-container .nav-bar{
+    background-color: #181818;
+    display: flex;
+    justify-content: space-evenly;
+    height: 80px;
+
+    
+}
+
+.nav-bar a{
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #fff;
+    font-family: "Teko", sans-serif;
+    font-size: 20px;
+   
+    
+}
+.text-block-1{
+    margin-top: 25px;
+    font-family: "Teko", sans-serif;
+}
+.hidden-text-block{
+    margin-top: 25px;
+}
+.hidden-text-block a{
+    padding: 25px;
+   
+    
+}

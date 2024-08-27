@@ -1,0 +1,95 @@
+.mat-card-block{
+    margin: 50px;
+   background-color: grey;
+   height: 750px;
+  
+   margin-left: 90px;
+   margin-right: 90px;
+   
+  
+  
+   
+}
+.mat-card-block.mat-card-block-1{
+    background-image: linear-gradient(rgba(2, 2, 2, 0.9), rgba(0, 0, 0, .5)), url("https://cdn.britannica.com/63/211663-050-A674D74C/Jonny-Bairstow-batting-semifinal-match-England-Australia-2019.jpg");
+    background-position: 0 0, 50%;
+    background-repeat: repeat, no-repeat;
+    background-size:auto,  cover;
+    border: 2px solid #181818;
+    
+    
+    
+
+}
+.mat-card-block.mat-card-block-2{
+    background-image: linear-gradient(rgba(2, 2, 2, 0.3), rgba(0, 0, 0, .5)), url("https://cdn.cssauthor.com/wp-content/uploads/2023/06/Vegefoods.jpg?strip=all&lossy=1&ssl=1");
+    background-position: 0 0, 50%;
+    background-repeat: repeat, no-repeat;
+    background-size:auto,  cover;
+    border: 2px solid #181818;
+
+}
+.mat-card-block.mat-card-block-3{
+    background-image: linear-gradient(rgba(2, 2, 2, 0.9), rgba(0, 0, 0, .5)), url("https://www.mindinventory.com/blog/wp-content/uploads/2022/10/health-fitness-app1200.jpg");
+    background-position: 0 0, 50%;
+    background-repeat: repeat, no-repeat;
+    background-size:auto,  cover;
+    border: 2px solid #181818;
+
+}
+.mat-card-block.mat-card-block-4{
+    background-image: linear-gradient(rgba(2, 2, 2, 0.9), rgba(0, 0, 0, .5)), url("https://www.gumlet.com/learn/content/images/2022/07/Elearning_platform.jpg");
+    background-position: 0 0, 50%;
+    background-repeat: repeat, no-repeat;
+    background-size:auto,  cover;
+    border: 2px solid #181818;
+
+}
+.mat-card-block.mat-card-block-5{
+    background-image: linear-gradient(rgba(2, 2, 2, 0.9), rgba(0, 0, 0, .5)), url("https://dianapps.com/blog/wp-content/uploads/2023/09/Untitled-design-3-1.png");
+    background-position: 0 0, 50%;
+    background-repeat: repeat, no-repeat;
+    background-size:auto,  cover;
+    border: 2px solid #181818;
+
+    
+}
+
+.mat-card-block mat-card-title{
+   
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-family: Teko, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 34px;
+    margin-top: 140px;
+    margin-left: 30px;
+    letter-spacing: 1px;
+    
+}
+.mat-card-block mat-card-subtitle{
+    
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    color: whitesmoke;
+    
+   
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 30px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    line-height: 20px;
+    margin-right: 500px;
+   
+}
+
+
+main{
+  
+    position: relative;
+    margin: auto;
+    
+        overflow: auto;
+      
+}
