@@ -38,9 +38,12 @@
 
 }
 .mat-card-block.mat-card-block-4{
-    background-image: linear-gradient(rgba(2, 2, 2, 0.9), rgba(0, 0, 0, .5)), url("https://www.gumlet.com/learn/content/images/2022/07/Elearning_platform.jpg");
+   
+
+      background-image: linear-gradient(rgba(2, 2, 2, 0.9), rgba(0, 0, 0, .5)), url("https://images.ctfassets.net/xri6xnn81z4a/5aXtYuOYClNeEEe02Hzr7w/bdd9928ff3760cee5978b5c26d461190/e-learning_app.jpg");
     background-position: 0 0, 50%;
     background-repeat: repeat, no-repeat;
+    
     background-size:auto,  cover;
     border: 2px solid #181818;
 

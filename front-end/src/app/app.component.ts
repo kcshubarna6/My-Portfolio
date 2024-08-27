@@ -25,12 +25,16 @@ export class AppComponent implements AfterViewInit, OnInit{
           window.scrollTo(0, 0); 
         }
         else if (event.url === '/contact-about'){
-          this.scrollToFooter();
+          setTimeout(() => {
+            this.scrollToFooter();
+          }, 100);
 
 
         }
         else if (event.url === '/technology'){
-          this.scrollToFooter();
+          setTimeout(() => {
+            this.scrollToFooter();
+          }, 100);
           
         }
         else if (event.url === '/about-me'){
@@ -104,6 +108,7 @@ export class AppComponent implements AfterViewInit, OnInit{
       
     });
   }
+
 
  
 }

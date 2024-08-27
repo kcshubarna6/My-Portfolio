@@ -8,16 +8,16 @@
 
 
 .image {
-  width: 50vh; /* The image will take the full width of the main div */
-  height: auto; /* Maintain aspect ratio */
-  display: block; /* Removes extra space under the image */
+  width: 50vh; 
+  height: auto; 
+  display: block; 
   
 }
 
 .text-desc {
-  width: 50vh; /* Make the text div width equal to the image */
-  word-wrap: break-word; /* Prevent long words from overflowing */
-  box-sizing: border-box; /* Include padding/border in the width */
+  width: 50vh; 
+  word-wrap: break-word; 
+  box-sizing: border-box; 
   color: #8d8a8a;
   font-family: Roboto, "Helvetica Neue", sans-serif;;
  
@@ -39,7 +39,7 @@
 }
 .text-block-1{
   width: 40vh;
-  word-wrap: break-word; /* Prevent long words from overflowing */
+  word-wrap: break-word; 
   box-sizing: border-box; 
   font-family: Nunito, sans-serif;
   font-size: 14px;
@@ -54,4 +54,32 @@
   font-weight: 700;
   line-height: 31px;
   
+}
+.h6{
+ 
+    color: #8d8a8a;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+   margin-top: 20px;
+    font-family: Teko, sans-serif;
+    font-size: 15px;
+    border-top: 2px solid #444;
+    padding: 2px;
+  
+}
+.text-block-3 a{
+  font-family: Nunito, sans-serif;
+  font-size: 14px;
+  color: #020101;
+  font-weight: 700;
+  line-height: 31px;
+  text-decoration: none;
+  
+
+}
+
+
+.resume-link {
+  font-style: italic;
+  text-decoration: underline;
 }

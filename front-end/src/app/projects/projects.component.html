@@ -2,16 +2,12 @@
   <main>
     
   <div id="projects" >
-      <div class="mat-cards">
-          <mat-card class="mat-card-block mat-card-block-1"  appearance="outlined">
+      <div class="mat-cards" *ngFor="let x of projects"  >
+          <mat-card [ngClass]="x.style" appearance="outlined">
               <mat-card-header>
-                <mat-card-title> Cricket Management App</mat-card-title>
+                <mat-card-title>{{x.title}} </mat-card-title>
                 <mat-card-subtitle>
-                  The Cricket Management App is a comprehensive platform designed to streamline the management of cricket 
-                  teams and tournaments. It allows users to create and manage teams, track player performance, schedule matches,
-                   and monitor scores in real-time. The app offers features like player statistics, team formations, and match analytics,
-                    providing a complete solution for cricket enthusiasts, coaches, and team managers to organize and oversee all aspects 
-                    of the game efficiently.
+                 {{x.description}}
                 </mat-card-subtitle>
               </mat-card-header>
               <mat-card-content>
@@ -22,65 +18,7 @@
                 <button mat-button></button>
               </mat-card-actions>
             </mat-card>
-            <mat-card class="mat-card-block mat-card-block-2" appearance="outlined">
-              <mat-card-header>
-                <mat-card-title> E-commerce Webiste</mat-card-title>
-                <mat-card-subtitle>A comprehensive e-commerce website that offers a seamless shopping experience, allowing users to effortlessly browse and 
-                  purchase products online. The platform features intuitive navigation, secure payment gateways,
-                   and a responsive design, ensuring accessibility across all devices. Key functionalities include a dynamic product
-                    catalog, personalized user accounts, real-time order tracking, and a robust shopping cart system. The design emphasizes user experience, making it easy for customers to find and buy what they need with minimal clicks</mat-card-subtitle>
-              </mat-card-header>
-              <mat-card-content>
-                <img mat-card-image src="" alt="">
-                <p></p>
-                </mat-card-content>
-              <mat-card-actions>
-                <button mat-button></button>
-              </mat-card-actions>
-            </mat-card>
-            <mat-card class="mat-card-block mat-card-block-3" appearance="outlined">
-              <mat-card-header>
-                <mat-card-title> Health and Fitness App</mat-card-title>
-                <mat-card-subtitle>This application will help the users that can track their workouts, set fitness goals, daily meals, can have a challenge for maintaining their health, gain/lose weight, and overall monitor the progress. The project would design and develop a comprehensive mobile application so that users may always keep in touch with your interactive application functionality.
-                   The primary objective of this project is to effectively manage health and fitness journeys. </mat-card-subtitle>
-              </mat-card-header>
-              <mat-card-content>
-                <img mat-card-image src="" alt="">
-                <p></p>
-                </mat-card-content>
-              <mat-card-actions>
-                <button mat-button></button>
-              </mat-card-actions>
-            </mat-card>
-            <mat-card class="mat-card-block mat-card-block-4" appearance="outlined">
-              <mat-card-header>
-                <mat-card-title> Online Learning Platform</mat-card-title>
-                <mat-card-subtitle>An Online Learning platform where the instructors can create courses and students can enroll, access the courses materials as per their needs, and track their progress. The main objective to develop this Online Learning Platform is to provide a dynamic and efficient online environment that will support both teaching and learning processes. 
-                  With the help of this application one can create and manage various courses, having the remote access, and can evaluate learning outcomes by progress tracking and assessments. </mat-card-subtitle>
-              </mat-card-header>
-              <mat-card-content>
-                <img mat-card-image src="" alt="">
-                <p></p>
-                </mat-card-content>
-              <mat-card-actions>
-                <button mat-button></button>
-              </mat-card-actions>
-            </mat-card>
-            <mat-card class="mat-card-block mat-card-block-5" appearance="outlined">
-              <mat-card-header>
-                <mat-card-title>  Social Media App</mat-card-title>
-                <mat-card-subtitle>A Social Media App that will allow users to create profiles whether personal/business, connect with friends on social media, and can have great interaction by creating a dynamic space that facilitates connections, communication. Through this platform users can share diverse content such as images, videos, text updates, links. The social media application manages users identity, interests, and various activities. 
-                  This application includes privacy controls over contents and posts. </mat-card-subtitle>
-              </mat-card-header>
-              <mat-card-content>
-                <img mat-card-image src="" alt="">
-                <p></p>
-                </mat-card-content>
-              <mat-card-actions>
-                <button mat-button></button>
-              </mat-card-actions>
-            </mat-card>
-            
+       
       </div>
   </div>
 </main>
