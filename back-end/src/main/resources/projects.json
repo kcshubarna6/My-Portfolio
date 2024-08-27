@@ -1,0 +1,86 @@
+{
+  "navbar": {
+    "brand": "SHUBARNA K C",
+    "links": [
+      {
+        "name": "Projects",
+        "url": "/projects"
+      },
+      {
+        "name": "Contact/About",
+        "url": "/about"
+      },
+      {
+        "name": "Technology",
+        "url": "/technology"
+      }
+    ]
+  },
+  "footer": {
+    "text": "©2024 Shubarna K C. All Rights Reserved.",
+    "socialLinks": [
+      {
+        "platform": "LinkedIn",
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/shubarnakc/"
+      },
+      {
+        "platform": "Instagram",
+        "name": "Instagram (as Shusil K C)",
+        "url": "https://www.instagram.com/shusilkc12/"
+      },
+      {
+        "platform": "GitHub",
+        "name": "GitHub",
+        "url": "https://github.com/kcshubarna6"
+      }
+    ]
+  },
+  "aboutMe": {
+    "name": "Shubarna K C",
+    "profilePicture": "https://scontent.fyyz1-1.fna.fbcdn.net/v/t39.30808-6/440567599_961772158935204_5005208512333659386_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=Pk1WUuPbaFwQ7kNvgFrjfHQ&_nc_ht=scontent.fyyz1-1.fna&oh=00_AYAjNr-fGQimASCi97GUyDiZP7p0rm1Ca-bdOHz_0hBByg&oe=66C9C0BA",
+    "bio": "I don't usually gaze off into the distance with eyes wide open, but this moment of being immersed in nature feels right, so in the bio it goes. If you want to chat, explore the web, or grab a drink and talk tech, don't hesitate to shoot me an email or a tweet.",
+    "description": "Shubarna is an Ontario-based web developer who, despite not having professional experience, has immersed myself in a range of projects during college and personal time. I excel at identifying a project's potential and transforming ideas into functional, dynamic web solutions. My journey has equipped me with a solid foundation in web development, a keen eye for detail, and a passion for creating impactful digital experiences. In every project I’ve undertaken, whether during college or on personal initiatives, I’ve focused on meaningful goals, ranging from enhancing user experiences to implementing creative solutions. I strive to carry that same commitment to making an impact in my personal endeavors as well. I firmly believe that web development and design are powerful tools for creating positive change and delivering engaging digital experiences. I’m comfortable tackling a variety of projects, from developing web applications to working on creative designs. Whether I’m coding, brainstorming ideas, or crafting prototypes, I bring a high level of quality and creativity to everything I do. Outside of work, I draw inspiration from backcountry skiing, early morning surfing, and traveling with my family. With a sense of wonder and a deep connection to nature, I channel this curiosity and passion into my work. This enthusiasm for living and exploring is evident in my projects, where I seamlessly blend creativity, professionalism, and play."
+  },
+  "technology": [
+    "Angular",
+    "Java Spring Boot",
+    "CSS",
+    "JavaScript",
+    "HTML"
+  ],
+  "projects": [
+    {
+      "projectId": 1,
+      "title": "Cricket Management App",
+      "description": "The Cricket Management App is a comprehensive platform designed to streamline the management of cricket teams and tournaments. It allows users to create and manage teams, track player performance, schedule matches, and monitor scores in real-time. The app offers features like player statistics, team formations, and match analytics, providing a complete solution for cricket enthusiasts, coaches, and team managers to organize and oversee all aspects of the game efficiently.",
+      "style": "mat-card-block mat-card-block-1"
+    },
+    {
+      "projectId": 2,
+      "title": "E-commerce Website",
+      "description": "A comprehensive e-commerce website that offers a seamless shopping experience, allowing users to effortlessly browse and purchase products online. The platform features intuitive navigation, secure payment gateways, and a responsive design, ensuring accessibility across all devices. Key functionalities include a dynamic product catalog, personalized user accounts, real-time order tracking, and a robust shopping cart system. The design emphasizes user experience, making it easy for customers to find and buy what they need with minimal clicks.",
+      "style": "mat-card-block mat-card-block-2"
+    },
+    {
+      "projectId": 3,
+      "title": "Health and Fitness App",
+      "description": "This application will help users track their workouts, set fitness goals, monitor daily meals, and manage their overall health and fitness journey. The project is a comprehensive mobile application that allows users to stay connected with interactive functionality and track their progress.",
+      "style": "mat-card-block mat-card-block-3"
+    },
+    {
+      "projectId": 4,
+      "title": "Online Learning Platform",
+      "description": "An Online Learning platform where instructors can create courses, and students can enroll, access course materials, and track their progress. The platform provides a dynamic and efficient online environment to support both teaching and learning processes, offering remote access and progress tracking.",
+      "style": "mat-card-block mat-card-block-4"
+    },
+   
+   
+    {
+      "projectId": 5,
+      "title": "Social Media App",
+      "description": "A Social Media App that allows users to create profiles, connect with friends, and share diverse content like images, videos, and text updates. The app manages user identities and activities, providing privacy controls over content and posts.",
+      "style": "mat-card-block mat-card-block-5"
+    }
+  ]
+}
