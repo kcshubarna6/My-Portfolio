@@ -14,21 +14,12 @@
 
                         </a>
                     </div>
-                    <div class="footer-link">
-                        <a href="https://www.linkedin.com/in/shubarnakc/" target="_blank">
-                            LinkedIn
+                    <div class="footer-link" *ngFor="let x of socialLinks">
+                        <a href="{{x.url}}" target="_blank">
+                            {{x.platform}}
                         </a>
                     </div>
-                    <div class="footer-link">
-                        <a href="https://www.instagram.com/shusilkc12/" target="_blank">
-                            Instagram (as Shusil K C)
-                        </a>
-                    </div>
-                    <div class="footer-link">
-                        <a href="https://github.com/kcshubarna6" target="_blank">
-                            GitHub
-                        </a>
-                    </div>
+                   
                  </div>
                 
             </div>
@@ -41,22 +32,11 @@
                         Technology Used
 
                     </div>
-                    <div class="technologyused">
-                       <div class="technologyName">
-                        Angular
+                    <div class="technologyused" >
+                       <div class="technologyName" *ngFor="let x of technology">
+                        {{x}}
                        </div>
-                       <div class="technologyName">
-                        Java Spring Boot
-                       </div>
-                       <div class="technologyName">
-                        CSS
-                       </div>
-                       <div class="technologyName">
-                        JavaScript
-                       </div>
-                       <div class="technologyName">
-                        HTML
-                       </div>
+                      
 
 
                     </div>

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-footer',
@@ -6,5 +7,33 @@ import { Component } from '@angular/core';
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent {
+  constructor (private http:HttpClient){}
+  response!:any;
+  rightsText !:any;
+  socialLinks : any[]=[];
+  technology!:any;
+
+  getFooterDetails(){
+    let url= "http://localhost:8080/getDetails/projects"
+
+    this.http.get(url).subscribe((res)=>{
+      this.response=res;
+      this.rightsText=this.response.footer.text;
+      for (let x of this.response.footer.socialLinks){
+        this.socialLinks.push({"platform":x.platform,"name":x.name, "url":x.url})
+      }
+      this.technology=this.response.technology;
+      console.log(this.socialLinks)
+
+      
+      
+
+
+    })
+  }
+
+  ngOnInit(){
+    this.getFooterDetails();
+  }
 
 }

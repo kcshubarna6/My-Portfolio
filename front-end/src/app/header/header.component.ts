@@ -1,12 +1,33 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
-
+import { HttpClient } from '@angular/common/http';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-  constructor(private router: Router) { }
+  constructor(private http:HttpClient){}
+response!:any;
+  name!:any;
+  links :any[]=[];
 
+  getHeaderDetails(){
+    let url ="http://localhost:8080/getDetails/projects";
+    this.http.get(url).subscribe((res)=>{
+      this.response=res;
+      this.name=this.response.navbar.brand;
+      console.log(this.name)
+      for(let x of this.response.navbar.links){
+        this.links.push({"name":x.name,"url":x.url})
+      }
+      console.log(this.links)
+
+
+
+    })
+  }
+  
+  ngOnInit(){
+    this.getHeaderDetails();
+  }
 }

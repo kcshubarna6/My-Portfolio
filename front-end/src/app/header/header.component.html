@@ -3,20 +3,14 @@
         <div class="nav-bar">
           <div class="name">
            <a href="">
-               <div class="text-block-1">SHUBARNA K C</div>
+               <div class="text-block-1">{{name}}</div>
            </a>
           </div>
-          <div class="hidden-text-block">
-           <a [routerLink]="['/projects']"  >
-               PROJECTS
+          <div class="hidden-text-block" >
+           <a *ngFor="let x of links" [routerLink]="[x.url]"  >
+               {{x.name}}
            </a>
-           
-           <a [routerLink]="['/contact-about']" >
-               CONTACT/ABOUT
-           </a>
-           <a [routerLink]="['/technology']">
-               TECHNOLOGY&nbsp;USED
-           </a>
+         
           </div>
         </div>
         
