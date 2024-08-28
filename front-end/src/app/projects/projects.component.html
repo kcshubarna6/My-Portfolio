@@ -1,9 +1,9 @@
 
-  <main>
+ 
     
   <div id="projects" >
       <div class="mat-cards" *ngFor="let x of projects"  >
-          <mat-card [ngClass]="x.style" appearance="outlined">
+          <mat-card [ngClass]="x.style" class="mat-card-3d" appearance="outlined" >
               <mat-card-header>
                 <mat-card-title>{{x.title}} </mat-card-title>
                 <mat-card-subtitle>
@@ -21,4 +21,4 @@
        
       </div>
   </div>
-</main>
+

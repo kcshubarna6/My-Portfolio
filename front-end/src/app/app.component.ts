@@ -11,6 +11,7 @@ import { Router, NavigationEnd } from '@angular/router';
 })
 export class AppComponent implements AfterViewInit, OnInit{
   title = 'front-end';
+  sideBar!:any;
 
   constructor(private router: Router) { }
  
@@ -28,6 +29,9 @@ export class AppComponent implements AfterViewInit, OnInit{
           setTimeout(() => {
             this.scrollToFooter();
           }, 100);
+          this.sideBar=document.querySelector(".no-side");
+          
+          this.sideBar.style.display="none";
 
 
         }
@@ -35,16 +39,25 @@ export class AppComponent implements AfterViewInit, OnInit{
           setTimeout(() => {
             this.scrollToFooter();
           }, 100);
+          this.sideBar=document.querySelector(".no-side");
+          
+          this.sideBar.style.display="none";
           
         }
         else if (event.url === '/about-me'){
           setTimeout(() => {
             this.scrollToHeader();
-          }, 100); 
+          }, 100);
+          this.sideBar=document.querySelector(".no-side");
+          
+          this.sideBar.style.display="none"; 
+          
         }
         else {
           this.scrollToProjects();
+          this.sideBar=document.querySelector(".no-side");
           
+          this.sideBar.style.display="none";
         }
       }
       

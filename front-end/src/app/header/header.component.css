@@ -1,7 +1,7 @@
 .header-container .nav-bar{
     background-color: #181818;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     height: 80px;
 
     
@@ -27,4 +27,50 @@
     padding: 25px;
    
     
+}
+
+.no-side{
+
+    display: none;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 250px;
+    z-index: 999;
+    box-shadow: -10px 0 110px rgba(0,0,0,0.1) ;
+    flex-direction: column;
+    backdrop-filter: blur(10px)
+    
+}
+.no-side a{
+    width: 100%;
+    padding: 20px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-family: "Teko", sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.links{
+    display: flex;
+    
+
+}
+.menu-icon{
+    margin-top: 27px;
+    margin-left: 20px;
+    display: none;
+}
+
+@media(max-width:855px){
+    .hideOnMobile{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
 }

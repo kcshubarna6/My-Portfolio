@@ -10,6 +10,7 @@ export class HeaderComponent {
 response!:any;
   name!:any;
   links :any[]=[];
+  sideBar!:any;
 
   getHeaderDetails(){
     let url ="http://localhost:8080/getDetails/projects";
@@ -29,5 +30,19 @@ response!:any;
   
   ngOnInit(){
     this.getHeaderDetails();
+  }
+  showSideBar(){
+    
+    this.sideBar=document.querySelector(".no-side");
+    
+    this.sideBar.style.display="flex";
+    
+    
+  }
+  hideSideBar(){
+    this.sideBar=document.querySelector(".no-side");
+    
+    this.sideBar.style.display="none";
+
   }
 }
