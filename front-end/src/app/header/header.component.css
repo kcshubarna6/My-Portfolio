@@ -54,6 +54,7 @@
     font-family: "Teko", sans-serif;
     font-size: 20px;
     color: white;
+    cursor: pointer;
 }
 .links{
     display: flex;
@@ -66,6 +67,14 @@
     display: none;
 }
 
+@media(max-width:855px){
+    .hideOnMobile{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+}
 @media(max-width:855px){
     .hideOnMobile{
         display: none;

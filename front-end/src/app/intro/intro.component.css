@@ -1,47 +1,59 @@
-.intro-container{
-    display: flex;
-    justify-content: space-evenly;
-    height: 600px;
-    margin-top: 50px;
-    
-
-    
-}
-.block-1{
+.mat-card-container mat-card-title{
+   
     color: whitesmoke;
-    
+    text-transform: uppercase;
     font-family: Teko, sans-serif;
-    
+    font-size: 30px;
     font-weight: 500;
     line-height: 34px;
-    margin-top: 140px;
+   
     margin-left: 30px;
     letter-spacing: 1px;
     
     
+}
+.mat-card-container mat-card-subtitle{
     
-}
-.block-2{
-    width: 700px;
-    border: 5px solid #181818;
-    background-image: linear-gradient(rgba(2, 2, 2, 0.1), rgba(0, 0, 0, .1)), url("https://scontent.fyyz1-1.fna.fbcdn.net/v/t39.30808-6/440567599_961772158935204_5005208512333659386_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=Pk1WUuPbaFwQ7kNvgFrjfHQ&_nc_ht=scontent.fyyz1-1.fna&oh=00_AYAjNr-fGQimASCi97GUyDiZP7p0rm1Ca-bdOHz_0hBByg&oe=66C9C0BA");
-    border-radius: 10px;
-}
-
-.links{
-    display: flex;
-    justify-content: space-evenly;
-}
-.links a{
-    text-decoration: none;
-    color: #fff;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    color: whitesmoke;
+  
    
-    padding: 5px;
-    border-radius: 4px;
-    font-family: Nunito, sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 30px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    line-height: 20px;
     
+   
 }
-.intro{
+.mat-card-container p{
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    color: whitesmoke;
+    
+
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 30px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    line-height: 20px;
     margin-bottom: 20px;
+
+}
+.mat-card-container{
+    margin: 80px;
+    
+   
+   
 }
 
+
+mat-card-header{
+    background-color: #181818;
+}
+
+
+mat-card-content{
+    background-color: #181818;
+}

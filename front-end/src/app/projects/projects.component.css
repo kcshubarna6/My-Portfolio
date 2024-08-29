@@ -3,13 +3,11 @@
    background-color: grey;
    height: 750px;
   
-   margin-left: 90px;
-   margin-right: 90px;
-   
   
   
    
 }
+
 
 .mat-card-block.mat-card-block-1{
     background-image: linear-gradient(rgba(2, 2, 2, 0.9), rgba(0, 0, 0, .5)), url("https://cdn.britannica.com/63/211663-050-A674D74C/Jonny-Bairstow-batting-semifinal-match-England-Australia-2019.jpg");
@@ -84,7 +82,7 @@
     letter-spacing: 1px;
     font-size: 18px;
     line-height: 20px;
-    margin-right: 500px;
+    
    
 }
 
