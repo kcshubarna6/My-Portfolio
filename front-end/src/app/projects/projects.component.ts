@@ -17,7 +17,7 @@ export class ProjectsComponent  {
   constructor( private http:HttpClient) { }
 
   fetchProjectDetails(){
-    let url="http://localhost:8080/getDetails/projects"
+    let url="assets/data/projects.json"
     this.http.get(url).subscribe((res)=>{
       console.log(res)
       this.wholeResponse=res;

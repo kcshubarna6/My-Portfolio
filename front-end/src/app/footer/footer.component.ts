@@ -14,7 +14,7 @@ export class FooterComponent {
   technology!:any;
 
   getFooterDetails(){
-    let url= "http://localhost:8080/getDetails/projects"
+    let url= "assets/data/projects.json"
 
     this.http.get(url).subscribe((res)=>{
       this.response=res;
